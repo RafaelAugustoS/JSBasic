@@ -65,5 +65,35 @@ Podemos declarar uma variavel como constante atraves da palavra-chave `const`. M
   // "TypeError: Assignment to constant variable.
 ```
 
+Agora que iniciamos da maneira correta, vamos entender alguns processos.
 
+# Funções
+
+Em JavaScript, quando envolvemos uma palavra com citações, ela é chamada de uma string , e quando terminamos com uma linha de código, terminamos com um ponto-e-vírgula (opicional).
+
+O JavaScript também possui recursos internos, chamados de funções. Para chamar uma função, simplesmente escrevemos seu nome (desta vez sem aspas) e terminamos com um conjunto de parênteses. Tente chamar a `alert` função como você vê a baixo.
+
+```
+  alert()
+```
+
+# String Function Parameter
+
+Você provavelmente teve o resultado de uma caixa com um valor `undefined`, porem isso não é nada de mais né? Agora vamos passar um parametro para nossa função.
+
+```
+  alert("Rafael Augusto")
+```
+
+<img src="http://sobresagas.com/wp-content/uploads/2016/07/uau.gif">
+
+# Combining Strings
+
+O JavaScript não só pode combinar números - ele também pode combinar Strings
+
+Crie um alert que combine seu nome e uma string, como abaixo:
+
+```
+  alert(nome + " é impressionante ;)")
+```
 
