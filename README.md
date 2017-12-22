@@ -97,3 +97,54 @@ Crie um alert que combine seu nome e uma string, como abaixo:
   alert(nome + " é impressionante ;)")
 ```
 
+Agora, sem mais delongas, vamos iniciar um projeto bem basico, o primeiro projeto será uma lista de tarefas, que ao adicionarmos, o item irá aparecer automaticamente na lista, e tambem iremos poder excluir.
+Estou levando em consideração, que já saiba (PELO MENOS O BASICO, SE NÃO, SAIA DAQUI) de `HTML` e `CSS`. Não irei explicar nenhuma estrutura de `HTML` ou `CSS`, o curso é de `JS`.
+
+Vamos começar criando um arquivo chamado `index.html`, com a seguinte estrutura.
+
+**index.html**
+
+```
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Lista de Tarefas com JS</title>
+    </head>
+    
+    <body>
+      
+    </body>
+  </html>
+  
+```
+
+E em seguida, criaremos nossa `list` com alguns produtos que já estarão disponiveis de inicio
+
+```
+  <ul id="list">
+    <li>iPhone</li>
+    <li>iPad</li>
+    <li>iPod</li>
+    <li>iMac</li>
+  </ul>
+```
+
+Para ficar mais legal visualmente, vamos dar uma estilizada
+
+```
+#list{
+  margin: 0;
+  padding: 0;
+}
+
+#list li{
+  list-style: none;
+  padding: 10px;
+  background: #FFF;
+  margin-top: 5px;
+}
+```
+O resultado será esse: 
+
+<img src="https://i.imgur.com/SrxT8am.png">
